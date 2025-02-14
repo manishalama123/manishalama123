@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Manisha Lama! 
-### 💻 Web Developer | 🎨 UI Enthusiast | 🚀 Learning JavaScript & Django
+### 💻 Web Developer | 🎨 UI Enthusiast | 🚀 Learning WebFrameworks
 
 - 🌱 Currently learning 
 - 📚 Studying at **Tribhuvan University**
