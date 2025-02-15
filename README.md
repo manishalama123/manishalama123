@@ -11,4 +11,9 @@
 - ![GitHub stats](https://github-readme-stats.vercel.app/api?username=manishalama123&show_icons=true&theme=radical)
 
 
+  ![snake gif](https://github.com/manishalama123/manishalama123/blob/output/github-snake-dark.svg)
+
+
+
+
 
