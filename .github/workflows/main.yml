@@ -1,55 +1,97 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
+name: GitHub Snake Game
 
-name: Generate Snake
+
 
 on:
-  schedule:
-    # Runs every 6 hours
-    - cron: "0 */6 * * *"
 
-  # Allows manual execution from the Actions tab
+  # Schedule the workflow to run daily at midnight UTC
+
+  schedule:
+
+    - cron: "0 0 * * *"
+
+
+
+  # Allow manual triggering of the workflow
+
   workflow_dispatch:
 
-permissions:
-  contents: write  # ✅ Allows pushing changes to the repository
+
+
+  # Trigger the workflow on pushes to the main branch
+
+  push:
+
+    branches:
+
+      - main
+
+
 
 jobs:
-  build:
+
+  generate:
+
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    timeout-minutes: 10
 
-      - name: Generate Snake GIF and SVG
-        uses: Platane/snk@v2
+
+
+    steps:
+
+      # Step 1: Checkout the repository
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v3
+
+
+
+      # Step 2: Generate the snake animations
+
+      - name: Generate GitHub Contributions Snake Animations
+
+        uses: Platane/snk@v3
+
         with:
+
+          # GitHub username to generate the animation for
+
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+
+
+          # Define the output files and their configurations
+
+          outputs: |
+
+            dist/github-snake.svg
+
+            dist/github-snake-dark.svg?palette=github-dark
+
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+        env:
+
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+      # Step 3: Deploy the generated files to the 'output' branch
+
+      - name: Deploy to Output Branch
+
+        uses: peaceiris/actions-gh-pages@v3
+
         with:
-          name: snake-animation
-          path: dist/
 
-  # Deployment Job
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+          publish_dir: ./dist
 
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: snake-animation
-          path: dist/
+          publish_branch: output
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages  # This is where the snake animation will be deployed
-          folder: dist       # Deploy the `dist/` folder
+          # Optionally, you can set a custom commit message
+
+          commit_message: "Update snake animation [skip ci]"
