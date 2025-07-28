@@ -1,17 +1,10 @@
 # 👋 Hi, I'm Manisha Lama!  
 ### 💻 Full Stack Web Developer | 🎨 UI Enthusiast | 🚀 Learning Web Frameworks
 
-![Profile Views](https://komarev.com/ghpvc/?username=manishalama123&style=flat-square&color=brightgreen)
+
 
 I'm a passionate web developer focused on building responsive, user-friendly applications. I love combining clean code with intuitive UI to craft meaningful digital experiences.
 
----
-
-### 🎓 Education  
-**Bachelor in Computer Applications (BCA)**  
-Tribhuvan University, Nepal
-
----
 
 ### 🔧 Tech Stack  
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -28,7 +21,7 @@ Tribhuvan University, Nepal
 
 ### 📫 Reach Me  
 - 📧 Email: manishalama136@gmail.com  
-- 💼 [LinkedIn](https://www.linkedin.com/in/manisha-lama-28b742224/)
+- 💼 LinkedIn: [LinkedIn](https://www.linkedin.com/in/manisha-lama-28b742224/)
 
 ---
 
