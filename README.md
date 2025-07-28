@@ -12,15 +12,27 @@ Tribhuvan University, Nepal
 ---
 
 ### 🔧 Tech Stack  
-- **Frontend:** React.js, Next.js, Tailwind CSS  
-- **Backend:** Django, Django REST Framework  
-- **Tools & Others:** Git, GitHub, Figma, VS Code
+
+#### 🌐 Frontend  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+
+#### 🛠️ Backend  
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)  
+![Django REST](https://img.shields.io/badge/DRF-FF1709?style=for-the-badge&logo=django&logoColor=white)
+
+#### 🧰 Tools  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
 ### 📫 Reach Me  
 - 📧 Email: manishalama136@gmail.com  
-- 💼 [LinkedIn](https://www.linkedin.com/in/manisha-lama-28b742224/)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/manisha-lama-28b742224/)
 
 ---
 
