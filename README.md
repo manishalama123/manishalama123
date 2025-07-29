@@ -1,7 +1,8 @@
+<div align="center>
 # 👋 Hi, I'm Manisha Lama!  
 ### 💻 Full Stack Web Developer | 🎨 UI Enthusiast | 🚀 Learning Web Frameworks
 
-
+</div>
 
 I'm a passionate web developer focused on building responsive, user-friendly applications. I love combining clean code with intuitive UI to craft meaningful digital experiences.
 
