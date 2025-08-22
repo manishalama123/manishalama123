@@ -1,11 +1,7 @@
-
 # 👋 Hi, I'm Manisha Lama!  
 ### 💻 Full Stack Web Developer | 🎨 UI Enthusiast | 🚀 Learning Web Frameworks
 
-
-
 I'm a passionate web developer focused on building responsive, user-friendly applications. I love combining clean code with intuitive UI to craft meaningful digital experiences.
-
 
 ### 🔧 Tech Stack  
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -17,6 +13,8 @@ I'm a passionate web developer focused on building responsive, user-friendly app
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
 ---
 
@@ -26,13 +24,21 @@ I'm a passionate web developer focused on building responsive, user-friendly app
 
 ---
 
-### 📊 GitHub Stats  
+### 📊 GitHub Stats & Most Used Languages  
+<table>
+<tr>
+<td>
+
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=manishalama123&show_icons=true&theme=radical)
 
----
+</td>
+<td>
 
-### 📌 Most Used Languages  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=manishalama123&layout=compact&theme=radical)
+
+</td>
+</tr>
+</table>
 
 ---
 
