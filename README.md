@@ -42,4 +42,5 @@ I'm a passionate web developer focused on building responsive, user-friendly app
 
 ---
 
-![snake gif](https://github.com/manishalama123/manishalama123/blob/output/github-snake-dark.svg)
+![snake gif](https://raw.githubusercontent.com/manishalama123/manishalama123/output/github-snake-dark.svg)
+
