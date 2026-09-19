@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Manisha Lama!  
-<div align="center">
+<!-- <div align="center">
   <img src="https://komarev.com/ghpvc/?username=manishalama123&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
-</div>
+</div> -->
  Full Stack Web Developer | 🎨 UI Enthusiast | 🚀 Learning Web Frameworks
 
 I'm a passionate web developer focused on building responsive, user-friendly applications. I love combining clean code with intuitive UI to craft meaningful digital experiences.
